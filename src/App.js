@@ -9,6 +9,10 @@ import Home2 from './component/Home2';
 import ReactForm from './component/ReactForm';
 import Hei from './component/LikeVue'
 
+import Todolist1 from './component/TodoList';
+import Todolist2 from './component/TodoList2';
+
+import ShowFather from './component/ShowFather'
 class App extends Component {
   render() {
     return (
@@ -31,14 +35,16 @@ class App extends Component {
         {/*<Home/>*/}
         {/*<News></News>*/}
 
-        <Home2></Home2>
-        <hr/>
-        <Hei></Hei>
-        <br/>
-        <hr/>
-        <ReactForm/>
+        {/*<Home2></Home2>*/}
+        {/*<hr/>*/}
+        {/*<Hei></Hei>*/}
+        {/*<br/>*/}
+        {/*<hr/>*/}
+        {/*<ReactForm/>*/}
         {/*<Banner/>*/}
-
+      {/*<Todolist2/>*/}
+      <ShowFather/>
+      {/*<News/>*/}
       </div>
     );
   }

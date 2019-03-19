@@ -1,5 +1,6 @@
 import React from 'react';
 import Idols from '../assets/images/Idols.png';
+import Header from "../component/Header"
 class  News extends React.Component{
 
   constructor (props, context) {
@@ -13,7 +14,8 @@ class  News extends React.Component{
         {title:"hello"},
         {title:"hello2"},
         {title:"hello3"}
-      ]
+      ],
+      title:'新闻组件'
     }
   }
 
@@ -23,6 +25,8 @@ class  News extends React.Component{
     })
     return (
       <div>
+        <Header title={this.state.title}/>
+        <br/>
         {this.state.list}
         <br/>
         <ul>
